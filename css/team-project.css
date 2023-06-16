@@ -1,5 +1,5 @@
 .side{
-    width: 30%;
+    width: 20%;
     border: 1px solid #000000;
     padding-bottom: 100%;
 }
@@ -15,15 +15,16 @@
     font-size: 30px;
     text-align: center;
     margin:  0%;
+    padding: 10px 0 10px 0;
 }
 .links{
-    background-color: rgb(239, 153, 217);
+    background-color: rgb(202, 193, 200);
     text-align: center;
     margin: 5px 0 5px 0;
     width: 130px;
 }
 .main{
-    width: 70%;
+    width: 80%;
 }
 .important{
     display: flex;
