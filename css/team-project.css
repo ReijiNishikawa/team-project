@@ -1,0 +1,32 @@
+.side{
+    width: 30%;
+    border: 1px solid #000000;
+    padding-bottom: 100%;
+}
+.write{
+    width: 130px;
+    border: #000000;
+    text-align: center;
+    margin-left: 40px;
+}
+.title{
+    background-color: black;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin:  0%;
+}
+.links{
+    background-color: rgb(239, 153, 217);
+    text-align: center;
+    margin: 5px 0 5px 0;
+    width: 130px;
+}
+.main{
+    width: 70%;
+}
+.important{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+}
