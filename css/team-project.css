@@ -1,5 +1,4 @@
 .side{
-    background-image: url("https://t3.ftcdn.net/jpg/03/08/36/08/360_F_308360825_E2IOjU0fjtPaaenJRTsllrlYBgmWSqWX.jpg");
     width: 20%;
     border: 1px solid #000000;
     padding-bottom: 100%;
@@ -25,7 +24,7 @@
     width: 130px;
 }
 .main{
-    width: 80%;
+    width: 85%;
     background-image: url("https://brutus.jp/wp-content/uploads/2021/10/s-1-1600x1067.jpg");
 }
 .important{
