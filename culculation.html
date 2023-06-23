@@ -16,8 +16,35 @@
                     <li class="links"><a href="culculation.html">確率の算出方法</a></li>
                 </ul></div>
             <div class="main">
-                <h2>確率の算出方法</h2>
-                <p>まず、確率とはある辞書が起こる程度の割合のことです。</p>
+                <h2 style="background-color: rgba(255, 255, 255, 0.8);">確率の算出方法</h2>
+                <h3 style="background-color: rgba(255, 255, 255, 0.8);">確率について</h3>
+                <p class="mar0" style="background-color: rgba(255, 255, 255, 0.8);">確率とはある辞書が起こる程度の割合のことです。</p>
+                <h3 style="background-color: rgba(255, 255, 255, 0.8);">ポーカーの確率の算出方法</h3>
+                <p class="mar0" style="background-color: rgba(255, 255, 255, 0.8);">
+                    ジョーカーを抜いて各ストー13枚あるので全部で52枚あります。
+                    <br>
+                    52枚からカードを5枚引くので計算式は
+                    <br>
+                    52C5=2598960
+                    <br>
+                    より、全部で2598960通りあります。
+                    その中から、それぞれ役の出るすべての通りを使い計算します。</p>
+                <h3 style="background-color: rgba(255, 255, 255, 0.8);">各役のすべての通り</h3>
+                <p class="mar0" style="background-color: rgba(255, 255, 255, 0.8);">
+                    各役のすべての通りは以下のようになります。</p>
+                <ol class="mar0" style="background-color: rgba(255, 255, 255, 0.8);">
+                    <li><h4>ワンペア</h4><p>13×6×(48×44×40/6)=1098240通り</p></li>
+                    <li><h4>ツーペア</h4><p>13C2×4C2×4C2×44C1=123552通り</p></li>
+                    <li><h4>スリーカード</h4><p>13×4C3×12C2×4^2=54912通り</p></li>
+                    <li><h4>フォーカード</h4><p>10×4^5-40=10200通り</p></li>
+                    <li><h4>ストレート</h4><p>13C5×4-40=5108通り</p></li>
+                    <li><h4>フラッシュ</h4><p>13×4C3×12×4C2=3744通り</p></li>
+                    <li><h4>フルハウス</h4><p>13C1×48C1=624通り</p></li>
+                    <li><h4>ストレートフラッシュ</h4><p>36通り</p></li>
+                    <li><h4>ロイヤルストレートフラッシュ</h4><p>4通り</p></li>
+                </ol>
+                <p class="mar0" style="background-color: rgba(255, 255, 255, 0.8);">これらの役すべての通りを2598960で割ると確率が計算できます</p>
+                
             </div>
         </div>
     </body>
