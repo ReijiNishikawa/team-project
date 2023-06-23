@@ -35,3 +35,9 @@
     flex-direction: row;
     margin: 0%;
 }    
+.mar0{
+    margin: 0 0 0 0;
+}
+h3{
+    margin-bottom: 0;
+}
