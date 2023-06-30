@@ -28,7 +28,8 @@
 }
 .main{
     width: 85%;
-    background-image: url("https://poker-hack.com/wp-content/uploads/2022/04/poker11.png");
+    background-image: url("https://img.freepik.com/free-photo/royal-flush-playing-card-and-casino-chips-on-green-poker-background_23-2147881072.jpg?w=996&t=st=1688105478~exp=1688106078~hmac=f3950700691613c732456916a1c848621412269104d9891ab9b2db71c16658ee");
+    background-size: contain;
 }
 .important{
     display: flex;
